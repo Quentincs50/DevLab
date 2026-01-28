@@ -1,33 +1,64 @@
-# Jeu 2D
+# ⚽ Hero Soccer Arena
 
-A [libGDX](https://libgdx.com/) project generated with [gdx-liftoff](https://github.com/libgdx/gdx-liftoff).
+**Hero Soccer Arena** est un jeu de football arcade en 2D mêlant action, physique et combats.  
+Affrontez vos adversaires dans une arène où seuls les plus habiles (ou les plus violents) survivront.
 
-This project was generated with a template including simple application launchers and a main class extending `Game` that sets the first screen.
+---
 
-## Platforms
+## 🎮 Concept du jeu
 
-- `core`: Main module with the application logic shared by all platforms.
-- `lwjgl3`: Primary desktop platform using LWJGL3; was called 'desktop' in older docs.
+- Matchs de football **1v1** en arène
+- Scorer le plus de but avant la fin du temps impartis
+- Gameplay rapide et nerveux
+- Interactions avancées entre les joueurs et la balle
+- Système de dégâts, mort temporaire et invincibilité
+- Capacités spéciales propres aux personnages
 
-## Gradle
+---
 
-This project uses [Gradle](https://gradle.org/) to manage dependencies.
-The Gradle wrapper was included, so you can run Gradle tasks using `gradlew.bat` or `./gradlew` commands.
-Useful Gradle tasks and flags:
+## 🕹️ Contrôles (Clavier)
 
-- `--continue`: when using this flag, errors will not stop the tasks from running.
-- `--daemon`: thanks to this flag, Gradle daemon will be used to run chosen tasks.
-- `--offline`: when using this flag, cached dependency archives will be used.
-- `--refresh-dependencies`: this flag forces validation of all dependencies. Useful for snapshot versions.
-- `build`: builds sources and archives of every project.
-- `cleanEclipse`: removes Eclipse project data.
-- `cleanIdea`: removes IntelliJ project data.
-- `clean`: removes `build` folders, which store compiled classes and built archives.
-- `eclipse`: generates Eclipse project data.
-- `idea`: generates IntelliJ project data.
-- `lwjgl3:jar`: builds application's runnable jar, which can be found at `lwjgl3/build/libs`.
-- `lwjgl3:run`: starts the application.
-- `test`: runs unit tests (if any).
+### Joueur 1
+| Action | Touche |
+|------|-------|
+| Se déplacer à gauche | `Q` |
+| Se déplacer à droite | `D` |
+| Sauter | `Z` |
+| Tirer / Frapper la balle | `S` |
+| Dash (en l'air) directionnel | `Z` ou `Q` + `SPACE` |
+| Pouvoir spécial | `E` |
 
-Note that most tasks that are not specific to a single project can be run with `name:` prefix, where the `name` should be replaced with the ID of a specific project.
-For example, `core:clean` removes `build` folder only from the `core` project.
+*(Les contrôles peuvent évoluer selon le développement)*
+
+---
+
+## ⚙️ Fonctionnalités principales
+
+- ✅ Selection du Héro
+- ✅ Map avec les différents niveaux
+- ✅ Déplacements fluides (run, jump, dash)
+- ✅ Système de collisions précis (tête, corps, pieds)
+- ✅ Balle avec vitesse, impulsion et dégâts
+- ✅ États du joueur (Idle, Run, Jump, Kick, Dash, Dying)
+- ✅ IA modulable (agressivité, temps de réaction, cible le ballon et le joueur)
+- 🚧 Mode Arcade Player 1 vs Player 2
+- 🚧 Nouveaux personnages et pouvoirs
+
+---
+
+## 🛠️ Technologies utilisées
+
+- **Java**
+- **LibGDX**
+- **Box2D**
+- Architecture orientée composants
+- Animations Textures
+
+---
+
+## 📷 Aperçu
+
+*(Screenshots / GIF à ajouter ici)*
+
+```text
+TODO: Ajouter des captures d'écran du gameplay
