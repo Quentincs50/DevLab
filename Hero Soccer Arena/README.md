@@ -1,12 +1,17 @@
 # ⚽ Hero Soccer Arena
 
 **Hero Soccer Arena** est un jeu de football arcade en 2D mêlant action, physique et combats.  
-Affrontez vos adversaires dans une arène où seuls les plus habiles (ou les plus violents) survivront.
+Inspiré de Super Smash Bros et des Head Soccer, affrontez vos adversaires dans une arène où seuls les plus habiles survivront.
 
 ---
 
 ## 🎮 Concept du jeu
 
+<div align="center">
+  <table>
+    <tr>
+      <td width="50%" valign="top">
+        
 - Matchs de football **1v1** en arène
 - Scorer le plus de but avant la fin du temps impartis
 - Gameplay rapide et nerveux
@@ -14,13 +19,27 @@ Affrontez vos adversaires dans une arène où seuls les plus habiles (ou les plu
 - Système de dégâts, mort temporaire et invincibilité
 - Capacités spéciales propres aux personnages
 
+  </td>
+      <td width="50%">
+        <img src="docs/context.png" alt="Context" width="100%">
+      </td>
+    </tr>
+  </table>
+</div>
+
 ---
 
 ## 🕹️ Contrôles (Clavier)
 
+<div align="center">
+  <table>
+    <tr>
+      <td width="50%" valign="top">
+
 ### Joueur 1
+
 | Action | Touche |
-|------|-------|
+|--------|--------|
 | Se déplacer à gauche | `Q` |
 | Se déplacer à droite | `D` |
 | Sauter | `Z` |
@@ -29,6 +48,14 @@ Affrontez vos adversaires dans une arène où seuls les plus habiles (ou les plu
 | Pouvoir spécial | `E` |
 
 *(Les contrôles peuvent évoluer selon le développement)*
+
+  </td>
+      <td width="50%">
+        <img src="docs/gameplay.gif" alt="Gameplay" width="100%">
+      </td>
+    </tr>
+  </table>
+</div>
 
 ---
 
@@ -41,8 +68,6 @@ Affrontez vos adversaires dans une arène où seuls les plus habiles (ou les plu
 - ✅ Balle avec vitesse, impulsion et dégâts
 - ✅ États du joueur (Idle, Run, Jump, Kick, Dash, Dying)
 - ✅ IA modulable (agressivité, temps de réaction, cible le ballon et le joueur)
-- 🚧 Mode Arcade Player 1 vs Player 2
-- 🚧 Nouveaux personnages et pouvoirs
 
 ---
 
@@ -53,12 +78,3 @@ Affrontez vos adversaires dans une arène où seuls les plus habiles (ou les plu
 - **Box2D**
 - Architecture orientée composants
 - Animations Textures
-
----
-
-## 📷 Aperçu
-
-*(Screenshots / GIF à ajouter ici)*
-
-```text
-TODO: Ajouter des captures d'écran du gameplay
